@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+}
+.board {
+    width: 600px;
+    height: 600px;
+    border: 2px solid black;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square {
+    width: 33.3333%;
+    height: 33.3333%;
+    border: 1px solid black;
+    padding: 50px;
+    font-size: 80px;
+    text-align: center;
+}
